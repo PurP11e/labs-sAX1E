@@ -1,0 +1,5 @@
+﻿  Khantov_Leonid_221_351_lab53.cpp
+C:\Users\leoni\source\repos\Project1\laboratory53\Khantov_Leonid_221_351_lab53.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Matrix.cpp
+  Создание кода...
+  laboratory53.vcxproj -> C:\Users\leoni\source\repos\Project1\x64\Debug\laboratory53.exe
