@@ -47,7 +47,7 @@ Game_Gogichaev::Game_Gogichaev(int gamers_count)
 }
 
 // копирующий конструктор
-Game_Gogichaev::Game_Gogichaev(const Game& c_game)
+Game_Gogichaev::Game_Gogichaev(const Game_Gogichaev& c_game)
 {
 	// копирование игроков
 	for (int i = 0; i < c_game.gamers.size(); i++)
