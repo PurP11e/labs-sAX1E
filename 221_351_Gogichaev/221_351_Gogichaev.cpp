@@ -20,7 +20,7 @@ Game_Gogichaev::Game_Gogichaev(int gamers_count)
 		this->gamers.push_back(Gamer());
 		std::cout << "Name >> ";
 		std::cin >> this->gamers[i].name;
-		this->gamers[i].has_additional_cube = false;
+		this->gamers[i].additional_cude = false;
 		this->gamers[i].building_tokens = 17;
 		this->gamers[i].has_adviser = false;
 		this->gamers[i].military_register = 0;
@@ -107,7 +107,7 @@ void Game_Gogichaev::phase1()
 		if (candidates.size() == 1)
 		{
 			for (int i = 0; i < this->gamers.size(); i++)
-				if (this->gamers[i].name == candidates[0].name) this->gamers[i].has_additional_cube = true;
+				if (this->gamers[i].name == candidates[0].name) this->gamers[i].additional_cude = true;
 		}
 		// если их несколько то сравниваем по сумме товаров
 		else {
@@ -129,7 +129,7 @@ void Game_Gogichaev::phase1()
 			if (count == 1)
 			{
 				for (int i = 0; i < this->gamers.size(); i++)
-					if (this->gamers[i].name == new_candidates[0].name) this->gamers[i].has_additional_cube = true;
+					if (this->gamers[i].name == new_candidates[0].name) this->gamers[i].additional_cude = true;
 			}
 			else
 			{
