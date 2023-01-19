@@ -1,0 +1,10 @@
+﻿  Circle.cpp
+  Circlesquare.cpp
+C:\Users\leoni\source\repos\Project1\laboratory54\Circlesquare.cpp(9,44): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\leoni\source\repos\Project1\laboratory54\Circlesquare.cpp(27,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Khantov_Leonid_221_351_lab54.cpp
+C:\Users\leoni\source\repos\Project1\laboratory54\Khantov_Leonid_221_351_lab54.cpp(249,56): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Position.cpp
+  Square.cpp
+  Создание кода...
+  laboratory54.vcxproj -> C:\Users\leoni\source\repos\Project1\x64\Debug\laboratory54.exe

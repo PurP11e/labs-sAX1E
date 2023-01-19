@@ -1,18 +1,32 @@
 #pragma once
-#include <iostream>
 class Matrix {
+private:
+	int row;
+	int col;
+	double* mat;
 public:
-	int size_col, size_row;
-	double* elem;
+	Matrix(int rows, int cols);
+	Matrix(int size);
 	Matrix();
+	Matrix(const Matrix& other);
 	~Matrix();
-	bool sum(const Matrix* mat2); //
-	bool mult(const Matrix* mat2);//
-	double trace(); //
-	void mult_by_num(double num); //
-	void input(); //
-	void print(); //
-	int get_columns(); //
-	int get_rows(); //
-	double get_elem(int i, int j); //
+
+	void input(int cols, int rows);
+	void input(int cols, int rows, double *mas);
+	void randinput(int cols, int rows);
+	void print();
+	void createmat(int cols, int rows);
+	int get_columns();
+	int get_rows();
+	double get_elem(int i, int j);
+	bool check_null(const Matrix& mat2);
+
+	Matrix sum(const Matrix mat2);
+	Matrix sum(double* mas, int size);
+	Matrix mult(const Matrix mat2);
+	Matrix mult(double* mas, int size);
+	double trace();
+	void shiftmat(Matrix& addmat, int index);
+	double det(int &a);
+	Matrix mult_by_num(double num);
 };
